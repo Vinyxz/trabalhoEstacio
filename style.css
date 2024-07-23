@@ -1,0 +1,90 @@
+body {  
+    font-family: sans-serif;  
+    margin: 20px;  
+    background-color: #000; /* Fundo preto */  
+    color: #fff; /* Texto branco */  
+    position: relative; /* Define o contexto para elementos posicionados */  
+}  
+
+.logo {  
+    position: absolute;  
+    top: 10px;          /* Distância do topo da tela */  
+    left: 10px;         /* Distância da esquerda da tela */  
+    width: 100px;        /* Ajuste a largura para um tamanho pequeno (50px) */  
+    height: auto;       /* Mantém a proporção da imagem */  
+    max-width: 100%;    /* Impede que a logo exceda a largura do contêiner */  
+}  
+
+.container {  
+    max-width: 800px;  
+    margin: 0 auto;  
+    background-color: #333;  
+    padding: 20px;  
+    border-radius: 8px;  
+}  
+
+h1 {  
+    text-align: center;  
+    margin-bottom: 20px;  
+    color: #fff;  
+}  
+
+.form-group {  
+    margin-bottom: 15px;  
+}  
+
+.form-group label {  
+    display: block;  
+    margin-bottom: 5px;  
+    color: #fff;  
+}  
+
+.form-control {  
+    width: 100%;  
+    padding: 10px;  
+    border: 1px solid #555;  
+    border-radius: 4px;  
+    background-color: #222;  
+    color: #fff;  
+}  
+
+.form-control:focus {  
+    outline: none;  
+    border-color: #007bff;  
+}  
+
+.btn {  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    padding: 10px 20px;  
+    border-radius: 4px;  
+    cursor: pointer;  
+    margin-right: 10px;  
+}  
+
+.btn:hover {  
+    background-color: #0056b3;  
+}  
+
+.table-container {  
+    display: flex;  
+    justify-content: center;  
+    margin-top: 20px;  
+}  
+
+table {  
+    width: 100%;  
+    border-collapse: collapse;  
+    color: #fff;  
+}  
+
+th, td {  
+    padding: 10px;  
+    text-align: left;  
+    border: 1px solid #555;  
+}  
+
+th {  
+    background-color: #444;  
+}
